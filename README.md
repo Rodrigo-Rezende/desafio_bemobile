@@ -1,16 +1,36 @@
-# desafio_bemobile
+# Desafio BeMobile
 
-A new Flutter project.
+Este projeto foi criado como parte do teste prático Mobile BeTalent. Ele tem como objetivo desenvolver um aplicativo móvel utilizando Flutter, que apresenta uma tabela com dados obtidos de uma API simulada, incluindo a funcionalidade de pesquisa através de um campo de entrada.
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+A aplicação consiste em uma tabela que exibe imagens e nomes de funcionários. Ao clicar em uma linha da tabela, mais informações sobre o funcionário são expandidas, mostrando o cargo, data de admissão e telefone, formatados de acordo com as especificações fornecidas no Figma do projeto.
 
-A few resources to get you started if this is your first Flutter project:
+A pesquisa permite o usuário buscar por nome, função e telefone dos funcionários listados, assim atualizando a tabela de funcionários em tempo real.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Como rodar o app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone este repositório para sua máquina.
+
+```
+git clone https://github.com/Rodrigo-Rezende/desafio_bemobile
+```
+
+2. Clone o repositório da database
+
+```
+https://github.com/BeMobile/desafio-mobile
+```
+
+3. Para simular a API é necessário ter o pacote
+   [json_rest_server](https://pub.dev/packages/json_rest_server)
+
+4. Com o json server rodando, execute o aplicativo
+
+```
+flutter pub get
+```
+
+```
+flutter run
+```
